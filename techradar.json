@@ -1,5 +1,4 @@
 {
-  "title": "Example Radar",
   "rings": [
     {
       "id": "use",
@@ -26,10 +25,6 @@
     {
       "id": "languages",
       "name": "Languages"
-    },
-    {
-      "id": "infrastructure",
-      "name": "Infrastructure"
     }
   ],
   "entries": [
@@ -47,22 +42,6 @@
       "id": "javascript",
       "title": "JavaScript",
       "quadrant": "languages"
-    },
-    {
-      "timeline": [
-        {
-          "moved": 0,
-          "ringId": "trial",
-          "date": "2020-08-18T00:00:00.000Z",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-        }
-      ],
-      "url": "#",
-      "key": "go",
-      "id": "go",
-      "title": "Go",
-      "quadrant": "languages",
-      "isNew": true
     }
   ]
 }
