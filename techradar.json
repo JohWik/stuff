@@ -42,6 +42,21 @@
       "id": "javascript",
       "title": "JavaScript",
       "quadrant": "languages"
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "use",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        }
+      ],
+      "url": "#",
+      "key": "go",
+      "id": "go",
+      "title": "Go",
+      "quadrant": "languages"
     }
   ]
 }
