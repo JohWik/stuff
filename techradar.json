@@ -1,15 +1,35 @@
 {
+  "title": "Example Radar",
   "rings": [
     {
       "id": "use",
       "name": "USE",
       "color": "#93c47d"
+    },
+    {
+      "id": "trial",
+      "name": "TRIAL",
+      "color": "#93c77d"
+    },
+    {
+      "id": "assess",
+      "name": "ASSESS",
+      "color": "#93c17d"
+    },
+    {
+      "id": "hold",
+      "name": "HOLD",
+      "color": "#63c47d"
     }
   ],
   "quadrants": [
     {
       "id": "languages",
       "name": "Languages"
+    }
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure"
     }
   ],
   "entries": [
@@ -27,6 +47,22 @@
       "id": "javascript",
       "title": "JavaScript",
       "quadrant": "languages"
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "trial",
+          "date": "2020-08-18T00:00:00.000Z",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        }
+      ],
+      "url": "#",
+      "key": "go",
+      "id": "go",
+      "title": "Go",
+      "quadrant": "languages",
+      "isNew": true,
     }
   ]
 }
