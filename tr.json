@@ -1,1064 +1,1064 @@
 {
-  "rings": [
-    {
-      "id": "adopt",
-      "name": "ADOPT",
-      "color": "#93c47d"
-    },
-    {
-      "id": "trial",
-      "name": "TRIAL",
-      "color": "#93c77d"
-    },
-    {
-      "id": "assess",
-      "name": "ASSESS",
-      "color": "#93c17d"
-    },
-    {
-      "id": "hold",
-      "name": "HOLD",
-      "color": "#63c47d"
-    }
-  ],
-  "quadrants": [
-    {
-      "id": "languages-and-frameworks",
-      "name": "Languages and frameworks"
-    },
-    {
-      "id": "platforms",
-      "name": "Platforms"
-    },
-    {
-      "id": "techniques",
-      "name": "Techniques"
-    },
-    {
-      "id": "tools",
-      "name": "Tools"
-    }
-  ],
-  "entries": [
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Vehicle client is developed in Android. We also have a separate Document Management application."
-        }
-      ],
-      "url": "#",
-      "key": "android",
-      "id": "android",
-      "title": "Android",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Angular is used for all web frontend development. Typically we encourage developers to upgrade to latest version."
-        }
-      ],
-      "url": "#",
-      "key": "angular",
-      "id": "angular",
-      "title": "Angular",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "hold",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "The vehicle client installer UI is developed in AngularJS."
-        }
-      ],
-      "url": "#",
-      "key": "angularjs",
-      "id": "angularjs",
-      "title": "AngularJS",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Bash is used in Jenkins jobs as well as for some tasks in the vehicle client"
-        }
-      ],
-      "url": "#",
-      "key": "bash",
-      "id": "bash",
-      "title": "Bash",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Firmware on roadbox"
-        }
-      ],
-      "url": "#",
-      "key": "c / c++",
-      "id": "c / c++",
-      "title": "C / C++",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "hold",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "In-house UI framework used in legacy parts of the vehicle client (was used back in the days when we had Windows CE based units and running on a standard JVM). We actively port CelerGUI modules to native Angular."
-        }
-      ],
-      "url": "#",
-      "key": "celergui",
-      "id": "celergui",
-      "title": "CelerGUI",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "hold",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "For a short while, we decided to stick with Sencha products after we concluded that GXT was dead. However, we soon realized that the learning curve is really high and hence decided to go for Angular instead. Only 3-4 frontend modules are implemented in ExtJS (Eco-driving dashboard, some settings)"
-        }
-      ],
-      "url": "#",
-      "key": "extjs",
-      "id": "extjs",
-      "title": "ExtJS",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": true,
-          "ringId": "trial",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "This is currently our main track when it comes to complementing JVM based services. Low resource consumption and really fast. One production grade component integrating with Kafka has been developed and is under evaluation. Going from Java development to Golang is not a huge step."
-        }
-      ],
-      "url": "#",
-      "key": "golang",
-      "id": "golang",
-      "title": "Golang",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "hold",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Sencha GXT (built upon Google Web Toolkit) was our main legacy choice for web development. Back in the days of Internet Explorer, it allowed us to create code that without workarounds for different browsers. However, cross-compiling from Java-code to Javascript is time consuming, debug environment is unstable etc."
-        }
-      ],
-      "url": "#",
-      "key": "gxt (gwt)",
-      "id": "gxt (gwt)",
-      "title": "GXT (GWT)",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "For multi-platform PWA apps, Ionic was chosen as foundation. This allows us to get the look and feel of native apps."
-        }
-      ],
-      "url": "#",
-      "key": "ionic",
-      "id": "ionic",
-      "title": "Ionic",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "hold",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "The LTS before Java 17. Most of our Spring Boot applications run on Java 11. A frew on Java 10, 13 etc. See also Java 17"
-        }
-      ],
-      "url": "#",
-      "key": "java 11",
-      "id": "java 11",
-      "title": "Java 11",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": true,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "We typically try to be on the latest LTS for Java (currently Java 17, later Java 21 in September 2023). Main objectives are security patches and stability."
-        }
-      ],
-      "url": "#",
-      "key": "java 17",
-      "id": "java 17",
-      "title": "Java 17",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "hold",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Our main backends are still running on Java 8 (Weboffice, Vehicle and Reports). New services are usually developed on latest LTS."
-        }
-      ],
-      "url": "#",
-      "key": "java 8",
-      "id": "java 8",
-      "title": "Java 8",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "hold",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "The vehicle client installer backend is developed in JavaEE (running on a Glassfish server)"
-        }
-      ],
-      "url": "#",
-      "key": "javaee",
-      "id": "javaee",
-      "title": "JavaEE",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "All new Android app development is done in Kotlin. https://web.microsoftstream.com/video/fc250f4b-0656-4503-acab-51cd169ed1e9?channelId=cd7a0f0c-177c-41d9-86f5-96f232444036"
-        }
-      ],
-      "url": "#",
-      "key": "kotlin",
-      "id": "kotlin",
-      "title": "Kotlin",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Markdown is our main alternative for documenting software. We store the software documentation as close to the source code as possible."
-        }
-      ],
-      "url": "#",
-      "key": "markdown",
-      "id": "markdown",
-      "title": "Markdown",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "assess",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "We already have a few services developed in Python, mainly on initiative on individual developers. However not embraced for new development. Golang is the main alternative we are considering right now."
-        }
-      ],
-      "url": "#",
-      "key": "python (server-side)",
-      "id": "python (server-side)",
-      "title": "Python (server-side)",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Python is used in the vehicle client as a scripting language in favor of Bash. Typically startup procedures, upgrading the software etc."
-        }
-      ],
-      "url": "#",
-      "key": "python (vehicle-side)",
-      "id": "python (vehicle-side)",
-      "title": "Python (vehicle-side)",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "assess",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "As an alternative to Spring Boot, we might consider Quarkus in the future. The support for native applications (GraalVM) is currently better supported in Quarkus than in Spring Boot. However, the framework as such is not as mature."
-        }
-      ],
-      "url": "#",
-      "key": "quarkus",
-      "id": "quarkus",
-      "title": "Quarkus",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "The main framework for creating new server side services. The JVM is quite heavy during warming up phase, and consumes a lot of memory, so Golang is evaluated as an alternative. See also Golang"
-        }
-      ],
-      "url": "#",
-      "key": "spring boot",
-      "id": "spring boot",
-      "title": "Spring Boot",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": true,
-          "ringId": "assess",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Spring Boot based on GraalVM is an alternative for our existing Spring Boot based services. Mainly to speed up startup times of services. We are also considering on-demand execution of some seldomly used backends (e.g. user and vehicle administration)"
-        }
-      ],
-      "url": "#",
-      "key": "spring boot native",
-      "id": "spring boot native",
-      "title": "Spring Boot Native",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "All new web UI development is done in Angular and TypeScript"
-        }
-      ],
-      "url": "#",
-      "key": "typescript",
-      "id": "typescript",
-      "title": "TypeScript",
-      "quadrant": "languages-and-frameworks"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "hold",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Our QA and team environments are run in AWS. To be moved to Azure."
-        }
-      ],
-      "url": "#",
-      "key": "aws",
-      "id": "aws",
-      "title": "AWS",
-      "quadrant": "platforms"
-    },
-    {
-      "timeline": [
-        {
-          "moved": true,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Our target service provider. Migration is in preparation."
-        }
-      ],
-      "url": "#",
-      "key": "azure",
-      "id": "azure",
-      "title": "Azure",
-      "quadrant": "platforms"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Our containerization solution. All deployable applications have been dockerized."
-        }
-      ],
-      "url": "#",
-      "key": "docker",
-      "id": "docker",
-      "title": "Docker",
-      "quadrant": "platforms"
-    },
-    {
-      "timeline": [
-        {
-          "moved": true,
-          "ringId": "trial",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "After migration to Azure, the next step will be to migrate from Rancher 1.6 to Kubernetes. A lot of work has already been done, but put on hold to focus on the Azure migration instead."
-        }
-      ],
-      "url": "#",
-      "key": "kubernetes",
-      "id": "kubernetes",
-      "title": "Kubernetes",
-      "quadrant": "platforms"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "hold",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Our current orchestration tool for docker containers (using Kettle instead of Kubernetes). Not supported anymore and it has severe performance problems, to be replaced with Kubernetes during 2023."
-        }
-      ],
-      "url": "#",
-      "key": "rancher 1.6",
-      "id": "rancher 1.6",
-      "title": "Rancher 1.6",
-      "quadrant": "platforms"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "assess",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Diagrams.net is our main tool for creating \"maps\" over the architecture"
-        }
-      ],
-      "url": "#",
-      "key": "architecture diagrams with draw.io",
-      "id": "architecture diagrams with draw.io",
-      "title": "Architecture diagrams with draw.io",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": true,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Currently in use: IntelliJ IDEA (used by most developers), Eclipse (only a handful), Visual Studio Code (general purpose text editor, a few use it for Angulare instead of IDEA) and Android Studio."
-        }
-      ],
-      "url": "#",
-      "key": "chose the ide you know best",
-      "id": "chose the ide you know best",
-      "title": "Chose the IDE you know best",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "CI is a fundamental part of how we build and release artifacts. For a long time, the strategy has been to split artifacts into smaller pieces to allow many developers and teams to work in parallel without stepping on each others toes."
-        }
-      ],
-      "url": "#",
-      "key": "continuous integration",
-      "id": "continuous integration",
-      "title": "Continuous Integration",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Several customers on the same server instance. Currently we have 10 instances (a.k.a. \"shards\") in production. However, we can't move customers between the shards. Strategy is to slowly work towards global services that are not part of the shards. For example the \"worktime contract service\" where we have one central data store for all driver contracts in the system. "
-        }
-      ],
-      "url": "#",
-      "key": "customer multi-tenancy",
-      "id": "customer multi-tenancy",
-      "title": "Customer multi-tenancy",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Automated E2E tests are run as part of the release process. Goal is to improve coverage to reduce need of regression tests. Server and vehicle environments are automatically reset and deployed in a Jenkins pipeline. Different test suites can be selected depending on which feature areas to cover (e.g. \"Drive rest time\", \"Reports\", \"Activities\")"
-        }
-      ],
-      "url": "#",
-      "key": "e2e tests",
-      "id": "e2e tests",
-      "title": "E2E tests",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Our proprietary legacy protocol for communication between vehicle client and server."
-        }
-      ],
-      "url": "#",
-      "key": "frameprotocol",
-      "id": "frameprotocol",
-      "title": "FrameProtocol",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "trial",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Some teams are trying out branching + pull requests in Bitbucket. However, some developers think that this contradicts the \"continuous integration\" paradigm. Debate is ongoing.... :)"
-        }
-      ],
-      "url": "#",
-      "key": "git feature branch workflow",
-      "id": "git feature branch workflow",
-      "title": "Git Feature branch workflow",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "To complement the time consuming E2E tests, we have some integration tests on API level, running on a subset of our full server stack. We would like to move more stuff into pure integration tests, and have QA taking care of those. We would like to be able to trust integration tests on a level so we could minimize manual testing."
-        }
-      ],
-      "url": "#",
-      "key": "integration tests",
-      "id": "integration tests",
-      "title": "Integration tests",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": true,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Rolling out MQTT as an alternative to our legacy frame protocol when communicating with the server side from the vehicle client"
-        }
-      ],
-      "url": "#",
-      "key": "mqtt",
-      "id": "mqtt",
-      "title": "MQTT",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "As an alternative to native Android/iOS apps, we have used PWA. Example: MobileOffice. Angular and Ionic used as foundation/platform."
-        }
-      ],
-      "url": "#",
-      "key": "progressive web apps",
-      "id": "progressive web apps",
-      "title": "Progressive Web Apps",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Alternative to SOAP for external integrations. And of course used for communication between our microservices."
-        }
-      ],
-      "url": "#",
-      "key": "rest",
-      "id": "rest",
-      "title": "REST",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": true,
-          "ringId": "trial",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Working towards a more event-driven UI, SSE is important to be able to push data to the UI without delays or the overhead of polling the backend. We still have some issues with SSE so it is not widely used yet. See also Websockets."
-        }
-      ],
-      "url": "#",
-      "key": "server side events",
-      "id": "server side events",
-      "title": "Server Side Events",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "assess",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Traditionally, we have used the Sharepoint wiki for HOWTOs and feature documentation. However, software documentation has bee done in Markdown and stored in the CM system. See also Markdown"
-        }
-      ],
-      "url": "#",
-      "key": "sharepoint sites / wiki",
-      "id": "sharepoint sites / wiki",
-      "title": "Sharepoint Sites / Wiki",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "assess",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Azure AD B2C will most likely be our main choice for SSO."
-        }
-      ],
-      "url": "#",
-      "key": "single sign on",
-      "id": "single sign on",
-      "title": "Single Sign On",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Used for our external APIs. We provide customers with WSDL files."
-        }
-      ],
-      "url": "#",
-      "key": "soap",
-      "id": "soap",
-      "title": "SOAP",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "assess",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Websockets have been discussed for event driven UI. However, Server Side Events was chosen due to cumbersome setup of websockets in the Apache proxy. See also Server Side Events"
-        }
-      ],
-      "url": "#",
-      "key": "websockets",
-      "id": "websockets",
-      "title": "Websockets",
-      "quadrant": "techniques"
-    },
-    {
-      "timeline": [
-        {
-          "moved": true,
-          "ringId": "hold",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Kafka is our main choice, but we still have some concepts (like exports) that are dependent on AMQ. Work needs to be done to migrate to Kafka"
-        }
-      ],
-      "url": "#",
-      "key": "activemq",
-      "id": "activemq",
-      "title": "ActiveMQ",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Apache is used as reverse proxy in WebOffice. All incoming HTTP traffic to the sites go through an entrypoint service and is then routed using Traefik to the correct service."
-        }
-      ],
-      "url": "#",
-      "key": "apache / traefik",
-      "id": "apache / traefik",
-      "title": "Apache / Traefik",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": true,
-          "ringId": "trial",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Tool developed by Spotify to serve as a \"hub\" for all software components. Dependencies can be modelled and documentation can be published. https://backstage.io/"
-        }
-      ],
-      "url": "#",
-      "key": "backstage",
-      "id": "backstage",
-      "title": "Backstage",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "hold",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Might become \"Adopt\" if we don't have to manage it ourselves. Not actively promoted since we don't have resources to actively manage it. Used by support and (some) developers for troubleshooting and analysis."
-        }
-      ],
-      "url": "#",
-      "key": "elk",
-      "id": "elk",
-      "title": "ELK",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": true,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "We chose Bitbucket for our migration to git."
-        }
-      ],
-      "url": "#",
-      "key": "git / bitbucket",
-      "id": "git / bitbucket",
-      "title": "git / Bitbucket",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Main build system for Android apps. Also possible to use with Java applications."
-        }
-      ],
-      "url": "#",
-      "key": "gradle",
-      "id": "gradle",
-      "title": "Gradle",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Jenkins is our main build system. However, it is also used for other scheduled tasks. Multibranch jobs are mainly used nowadays."
-        }
-      ],
-      "url": "#",
-      "key": "jenkins",
-      "id": "jenkins",
-      "title": "Jenkins",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Main ticket system."
-        }
-      ],
-      "url": "#",
-      "key": "jira",
-      "id": "jira",
-      "title": "Jira",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "This is our main solution for event driven data. Outperforms JMS (ActiveMQ) in most use-cases."
-        }
-      ],
-      "url": "#",
-      "key": "kafka",
-      "id": "kafka",
-      "title": "Kafka",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": true,
-          "ringId": "trial",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Kafka Connect is a tool that, by using configuration, allows you to produce and consume Kafka topics with other sources. We use it to push CRUD changes in database tables to Kafka topics. For example CRUD operations on users and vehicles."
-        }
-      ],
-      "url": "#",
-      "key": "kafka connect",
-      "id": "kafka connect",
-      "title": "Kafka Connect",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": true,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Kafka Streams is a powerful Java library that allows you to create complex processing of Kafka topics without much code. It will survive restarts (keeping state in an automatically created supplementary Kafka topic), allows you to join data from different topics etc. Similar to observables in Angular, but for data on Kafka..."
-        }
-      ],
-      "url": "#",
-      "key": "kafka streams",
-      "id": "kafka streams",
-      "title": "Kafka Streams",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Firmware in vehicle?"
-        }
-      ],
-      "url": "#",
-      "key": "make",
-      "id": "make",
-      "title": "Make",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Main build system for server-side Java applications. Some custom plugins for integration with Phrase."
-        }
-      ],
-      "url": "#",
-      "key": "maven",
-      "id": "maven",
-      "title": "Maven",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Microsoft SQL Server 2019 migration is to be done during Summer 2022 (from SQL Server 2014)"
-        }
-      ],
-      "url": "#",
-      "key": "microsoft sql server 2019",
-      "id": "microsoft sql server 2019",
-      "title": "Microsoft SQL Server 2019",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "trial",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Two services are using MongoDB locally in their own stack. Work ongoing to centralize MongoDB for global access within Co-Driver. Will then be the main NoSQL alternative."
-        }
-      ],
-      "url": "#",
-      "key": "mongodb",
-      "id": "mongodb",
-      "title": "MongoDB",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "hold",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "MySQL is only used for Rancher 1.6. Not used in production code anymore (MS SQL Server 2019 is the main alternative)"
-        }
-      ],
-      "url": "#",
-      "key": "mysql",
-      "id": "mysql",
-      "title": "MySQL",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Nginx is used as reverse proxy for our Rancher servers."
-        }
-      ],
-      "url": "#",
-      "key": "nginx",
-      "id": "nginx",
-      "title": "Nginx",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Our translation tool."
-        }
-      ],
-      "url": "#",
-      "key": "phrase",
-      "id": "phrase",
-      "title": "Phrase",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "For server monitoring, Prometheus is constantly fed with metrics from most of our software components. Prometheus metrics are visualized in Grafana boards using 14 days of history."
-        }
-      ],
-      "url": "#",
-      "key": "prometheus / grafana",
-      "id": "prometheus / grafana",
-      "title": "Prometheus / Grafana",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "hold",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Our RTD and AssetComServer (Co-Driver \"unit server\") use RabbitMQ. However, we have said that new components should use Kafka primarily and secondary ActiveMQ."
-        }
-      ],
-      "url": "#",
-      "key": "rabbitmq",
-      "id": "rabbitmq",
-      "title": "RabbitMQ",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": true,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "We have a \"team\" subscription in Sentry. So far we have rolled it out in 2-3 frontend applications. Trial in Spring Boot is ongoing."
-        }
-      ],
-      "url": "#",
-      "key": "sentry",
-      "id": "sentry",
-      "title": "Sentry",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Used for HOWTOs. However, most people don't like Sharepoint."
-        }
-      ],
-      "url": "#",
-      "key": "sharepoint wiki",
-      "id": "sharepoint wiki",
-      "title": "Sharepoint Wiki",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "hold",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Subversion is our legacy CM system, which we will not get rid of for a long forseeable time."
-        }
-      ],
-      "url": "#",
-      "key": "subversion",
-      "id": "subversion",
-      "title": "Subversion",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "hold",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "Zabbix is actively replaced with Prometheus. After move to Azure, Zabbix will no longer be used."
-        }
-      ],
-      "url": "#",
-      "key": "zabbix",
-      "id": "zabbix",
-      "title": "Zabbix",
-      "quadrant": "tools"
-    },
-    {
-      "timeline": [
-        {
-          "moved": false,
-          "ringId": "adopt",
-          "date": "2022-01-01T00:00:00.000Z",
-          "description": "All environments (prod, QA, team, dev environments) are automatically set up using definitions. No (or minimal) manual work shall be needed to get a new environment up and running. All environments shall be configured in the same way - i.e. no specific adaptations of a QA environment."
-        }
-      ],
-      "url": "#",
-      "key": "infrastructure as code",
-      "id": "infrastructure as code",
-      "title": "Infrastructure as code",
-      "quadrant": "techniques"
-    },
-  ]
+    "rings": [
+        {
+            "id": "adopt",
+            "name": "ADOPT",
+            "color": "#93c47d"
+        },
+        {
+            "id": "trial",
+            "name": "TRIAL",
+            "color": "#93c77d"
+        },
+        {
+            "id": "assess",
+            "name": "ASSESS",
+            "color": "#93c17d"
+        },
+        {
+            "id": "hold",
+            "name": "HOLD",
+            "color": "#63c47d"
+        }
+    ],
+    "quadrants": [
+        {
+            "id": "languages-and-frameworks",
+            "name": "Languages and frameworks"
+        },
+        {
+            "id": "platforms",
+            "name": "Platforms"
+        },
+        {
+            "id": "techniques",
+            "name": "Techniques"
+        },
+        {
+            "id": "tools",
+            "name": "Tools"
+        }
+    ],
+    "entries": [
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Vehicle client is developed in Android. We also have a separate Document Management application."
+                }
+            ],
+            "url": "#",
+            "key": "android",
+            "id": "android",
+            "title": "Android",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Angular is used for all web frontend development. Typically we encourage developers to upgrade to latest version."
+                }
+            ],
+            "url": "#",
+            "key": "angular",
+            "id": "angular",
+            "title": "Angular",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "The vehicle client installer UI is developed in AngularJS."
+                }
+            ],
+            "url": "#",
+            "key": "angularjs",
+            "id": "angularjs",
+            "title": "AngularJS",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Bash is used in Jenkins jobs as well as for some tasks in the vehicle client"
+                }
+            ],
+            "url": "#",
+            "key": "bash",
+            "id": "bash",
+            "title": "Bash",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Firmware on roadbox"
+                }
+            ],
+            "url": "#",
+            "key": "c / c++",
+            "id": "c / c++",
+            "title": "C / C++",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "In-house UI framework used in legacy parts of the vehicle client (was used back in the days when we had Windows CE based units and running on a standard JVM). We actively port CelerGUI modules to native Angular."
+                }
+            ],
+            "url": "#",
+            "key": "celergui",
+            "id": "celergui",
+            "title": "CelerGUI",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "For a short while, we decided to stick with Sencha products after we concluded that GXT was dead. However, we soon realized that the learning curve is really high and hence decided to go for Angular instead. Only 3-4 frontend modules are implemented in ExtJS (Eco-driving dashboard, some settings)"
+                }
+            ],
+            "url": "#",
+            "key": "extjs",
+            "id": "extjs",
+            "title": "ExtJS",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "This is currently our main track when it comes to complementing JVM based services. Low resource consumption and really fast. One production grade component integrating with Kafka has been developed and is under evaluation. Going from Java development to Golang is not a huge step."
+                }
+            ],
+            "url": "#",
+            "key": "golang",
+            "id": "golang",
+            "title": "Golang",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Sencha GXT (built upon Google Web Toolkit) was our main legacy choice for web development. Back in the days of Internet Explorer, it allowed us to create code that without workarounds for different browsers. However, cross-compiling from Java-code to Javascript is time consuming, debug environment is unstable etc."
+                }
+            ],
+            "url": "#",
+            "key": "gxt (gwt)",
+            "id": "gxt (gwt)",
+            "title": "GXT (GWT)",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "For multi-platform PWA apps, Ionic was chosen as foundation. This allows us to get the look and feel of native apps."
+                }
+            ],
+            "url": "#",
+            "key": "ionic",
+            "id": "ionic",
+            "title": "Ionic",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "The LTS before Java 17. Most of our Spring Boot applications run on Java 11. A frew on Java 10, 13 etc. See also Java 17"
+                }
+            ],
+            "url": "#",
+            "key": "java 11",
+            "id": "java 11",
+            "title": "Java 11",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "We typically try to be on the latest LTS for Java (currently Java 17, later Java 21 in September 2023). Main objectives are security patches and stability."
+                }
+            ],
+            "url": "#",
+            "key": "java 17",
+            "id": "java 17",
+            "title": "Java 17",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Our main backends are still running on Java 8 (Weboffice, Vehicle and Reports). New services are usually developed on latest LTS."
+                }
+            ],
+            "url": "#",
+            "key": "java 8",
+            "id": "java 8",
+            "title": "Java 8",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "The vehicle client installer backend is developed in JavaEE (running on a Glassfish server)"
+                }
+            ],
+            "url": "#",
+            "key": "javaee",
+            "id": "javaee",
+            "title": "JavaEE",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "All new Android app development is done in Kotlin. https://web.microsoftstream.com/video/fc250f4b-0656-4503-acab-51cd169ed1e9?channelId=cd7a0f0c-177c-41d9-86f5-96f232444036"
+                }
+            ],
+            "url": "#",
+            "key": "kotlin",
+            "id": "kotlin",
+            "title": "Kotlin",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Markdown is our main alternative for documenting software. We store the software documentation as close to the source code as possible."
+                }
+            ],
+            "url": "#",
+            "key": "markdown",
+            "id": "markdown",
+            "title": "Markdown",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "We already have a few services developed in Python, mainly on initiative on individual developers. However not embraced for new development. Golang is the main alternative we are considering right now."
+                }
+            ],
+            "url": "#",
+            "key": "python (server-side)",
+            "id": "python (server-side)",
+            "title": "Python (server-side)",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Python is used in the vehicle client as a scripting language in favor of Bash. Typically startup procedures, upgrading the software etc."
+                }
+            ],
+            "url": "#",
+            "key": "python (vehicle-side)",
+            "id": "python (vehicle-side)",
+            "title": "Python (vehicle-side)",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "As an alternative to Spring Boot, we might consider Quarkus in the future. The support for native applications (GraalVM) is currently better supported in Quarkus than in Spring Boot. However, the framework as such is not as mature."
+                }
+            ],
+            "url": "#",
+            "key": "quarkus",
+            "id": "quarkus",
+            "title": "Quarkus",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "The main framework for creating new server side services. The JVM is quite heavy during warming up phase, and consumes a lot of memory, so Golang is evaluated as an alternative. See also Golang"
+                }
+            ],
+            "url": "#",
+            "key": "spring boot",
+            "id": "spring boot",
+            "title": "Spring Boot",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Spring Boot based on GraalVM is an alternative for our existing Spring Boot based services. Mainly to speed up startup times of services. We are also considering on-demand execution of some seldomly used backends (e.g. user and vehicle administration)"
+                }
+            ],
+            "url": "#",
+            "key": "spring boot native",
+            "id": "spring boot native",
+            "title": "Spring Boot Native",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "All new web UI development is done in Angular and TypeScript"
+                }
+            ],
+            "url": "#",
+            "key": "typescript",
+            "id": "typescript",
+            "title": "TypeScript",
+            "quadrant": "languages-and-frameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Our QA and team environments are run in AWS. To be moved to Azure."
+                }
+            ],
+            "url": "#",
+            "key": "aws",
+            "id": "aws",
+            "title": "AWS",
+            "quadrant": "platforms"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Our target service provider. Migration is in preparation."
+                }
+            ],
+            "url": "#",
+            "key": "azure",
+            "id": "azure",
+            "title": "Azure",
+            "quadrant": "platforms"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Our containerization solution. All deployable applications have been dockerized."
+                }
+            ],
+            "url": "#",
+            "key": "docker",
+            "id": "docker",
+            "title": "Docker",
+            "quadrant": "platforms"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "After migration to Azure, the next step will be to migrate from Rancher 1.6 to Kubernetes. A lot of work has already been done, but put on hold to focus on the Azure migration instead."
+                }
+            ],
+            "url": "#",
+            "key": "kubernetes",
+            "id": "kubernetes",
+            "title": "Kubernetes",
+            "quadrant": "platforms"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Our current orchestration tool for docker containers (using Kettle instead of Kubernetes). Not supported anymore and it has severe performance problems, to be replaced with Kubernetes during 2023."
+                }
+            ],
+            "url": "#",
+            "key": "rancher 1.6",
+            "id": "rancher 1.6",
+            "title": "Rancher 1.6",
+            "quadrant": "platforms"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Diagrams.net is our main tool for creating \"maps\" over the architecture"
+                }
+            ],
+            "url": "#",
+            "key": "architecture diagrams with draw.io",
+            "id": "architecture diagrams with draw.io",
+            "title": "Architecture diagrams with draw.io",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Currently in use: IntelliJ IDEA (used by most developers), Eclipse (only a handful), Visual Studio Code (general purpose text editor, a few use it for Angulare instead of IDEA) and Android Studio."
+                }
+            ],
+            "url": "#",
+            "key": "chose the ide you know best",
+            "id": "chose the ide you know best",
+            "title": "Chose the IDE you know best",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "CI is a fundamental part of how we build and release artifacts. For a long time, the strategy has been to split artifacts into smaller pieces to allow many developers and teams to work in parallel without stepping on each others toes."
+                }
+            ],
+            "url": "#",
+            "key": "continuous integration",
+            "id": "continuous integration",
+            "title": "Continuous Integration",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Several customers on the same server instance. Currently we have 10 instances (a.k.a. \"shards\") in production. However, we can't move customers between the shards. Strategy is to slowly work towards global services that are not part of the shards. For example the \"worktime contract service\" where we have one central data store for all driver contracts in the system. "
+                }
+            ],
+            "url": "#",
+            "key": "customer multi-tenancy",
+            "id": "customer multi-tenancy",
+            "title": "Customer multi-tenancy",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Automated E2E tests are run as part of the release process. Goal is to improve coverage to reduce need of regression tests. Server and vehicle environments are automatically reset and deployed in a Jenkins pipeline. Different test suites can be selected depending on which feature areas to cover (e.g. \"Drive rest time\", \"Reports\", \"Activities\")"
+                }
+            ],
+            "url": "#",
+            "key": "e2e tests",
+            "id": "e2e tests",
+            "title": "E2E tests",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Our proprietary legacy protocol for communication between vehicle client and server."
+                }
+            ],
+            "url": "#",
+            "key": "frameprotocol",
+            "id": "frameprotocol",
+            "title": "FrameProtocol",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Some teams are trying out branching + pull requests in Bitbucket. However, some developers think that this contradicts the \"continuous integration\" paradigm. Debate is ongoing.... :)"
+                }
+            ],
+            "url": "#",
+            "key": "git feature branch workflow",
+            "id": "git feature branch workflow",
+            "title": "Git Feature branch workflow",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "To complement the time consuming E2E tests, we have some integration tests on API level, running on a subset of our full server stack. We would like to move more stuff into pure integration tests, and have QA taking care of those. We would like to be able to trust integration tests on a level so we could minimize manual testing."
+                }
+            ],
+            "url": "#",
+            "key": "integration tests",
+            "id": "integration tests",
+            "title": "Integration tests",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Rolling out MQTT as an alternative to our legacy frame protocol when communicating with the server side from the vehicle client"
+                }
+            ],
+            "url": "#",
+            "key": "mqtt",
+            "id": "mqtt",
+            "title": "MQTT",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "As an alternative to native Android/iOS apps, we have used PWA. Example: MobileOffice. Angular and Ionic used as foundation/platform."
+                }
+            ],
+            "url": "#",
+            "key": "progressive web apps",
+            "id": "progressive web apps",
+            "title": "Progressive Web Apps",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Alternative to SOAP for external integrations. And of course used for communication between our microservices."
+                }
+            ],
+            "url": "#",
+            "key": "rest",
+            "id": "rest",
+            "title": "REST",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Working towards a more event-driven UI, SSE is important to be able to push data to the UI without delays or the overhead of polling the backend. We still have some issues with SSE so it is not widely used yet. See also Websockets."
+                }
+            ],
+            "url": "#",
+            "key": "server side events",
+            "id": "server side events",
+            "title": "Server Side Events",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Traditionally, we have used the Sharepoint wiki for HOWTOs and feature documentation. However, software documentation has bee done in Markdown and stored in the CM system. See also Markdown"
+                }
+            ],
+            "url": "#",
+            "key": "sharepoint sites / wiki",
+            "id": "sharepoint sites / wiki",
+            "title": "Sharepoint Sites / Wiki",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Azure AD B2C will most likely be our main choice for SSO."
+                }
+            ],
+            "url": "#",
+            "key": "single sign on",
+            "id": "single sign on",
+            "title": "Single Sign On",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Used for our external APIs. We provide customers with WSDL files."
+                }
+            ],
+            "url": "#",
+            "key": "soap",
+            "id": "soap",
+            "title": "SOAP",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Websockets have been discussed for event driven UI. However, Server Side Events was chosen due to cumbersome setup of websockets in the Apache proxy. See also Server Side Events"
+                }
+            ],
+            "url": "#",
+            "key": "websockets",
+            "id": "websockets",
+            "title": "Websockets",
+            "quadrant": "techniques"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "hold",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Kafka is our main choice, but we still have some concepts (like exports) that are dependent on AMQ. Work needs to be done to migrate to Kafka"
+                }
+            ],
+            "url": "#",
+            "key": "activemq",
+            "id": "activemq",
+            "title": "ActiveMQ",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Apache is used as reverse proxy in WebOffice. All incoming HTTP traffic to the sites go through an entrypoint service and is then routed using Traefik to the correct service."
+                }
+            ],
+            "url": "#",
+            "key": "apache / traefik",
+            "id": "apache / traefik",
+            "title": "Apache / Traefik",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Tool developed by Spotify to serve as a \"hub\" for all software components. Dependencies can be modelled and documentation can be published. https://backstage.io/"
+                }
+            ],
+            "url": "#",
+            "key": "backstage",
+            "id": "backstage",
+            "title": "Backstage",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Might become \"Adopt\" if we don't have to manage it ourselves. Not actively promoted since we don't have resources to actively manage it. Used by support and (some) developers for troubleshooting and analysis."
+                }
+            ],
+            "url": "#",
+            "key": "elk",
+            "id": "elk",
+            "title": "ELK",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "We chose Bitbucket for our migration to git."
+                }
+            ],
+            "url": "#",
+            "key": "git / bitbucket",
+            "id": "git / bitbucket",
+            "title": "git / Bitbucket",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Main build system for Android apps. Also possible to use with Java applications."
+                }
+            ],
+            "url": "#",
+            "key": "gradle",
+            "id": "gradle",
+            "title": "Gradle",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Jenkins is our main build system. However, it is also used for other scheduled tasks. Multibranch jobs are mainly used nowadays."
+                }
+            ],
+            "url": "#",
+            "key": "jenkins",
+            "id": "jenkins",
+            "title": "Jenkins",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Main ticket system."
+                }
+            ],
+            "url": "#",
+            "key": "jira",
+            "id": "jira",
+            "title": "Jira",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "This is our main solution for event driven data. Outperforms JMS (ActiveMQ) in most use-cases."
+                }
+            ],
+            "url": "#",
+            "key": "kafka",
+            "id": "kafka",
+            "title": "Kafka",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Kafka Connect is a tool that, by using configuration, allows you to produce and consume Kafka topics with other sources. We use it to push CRUD changes in database tables to Kafka topics. For example CRUD operations on users and vehicles."
+                }
+            ],
+            "url": "#",
+            "key": "kafka connect",
+            "id": "kafka connect",
+            "title": "Kafka Connect",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Kafka Streams is a powerful Java library that allows you to create complex processing of Kafka topics without much code. It will survive restarts (keeping state in an automatically created supplementary Kafka topic), allows you to join data from different topics etc. Similar to observables in Angular, but for data on Kafka..."
+                }
+            ],
+            "url": "#",
+            "key": "kafka streams",
+            "id": "kafka streams",
+            "title": "Kafka Streams",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Firmware in vehicle?"
+                }
+            ],
+            "url": "#",
+            "key": "make",
+            "id": "make",
+            "title": "Make",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Main build system for server-side Java applications. Some custom plugins for integration with Phrase."
+                }
+            ],
+            "url": "#",
+            "key": "maven",
+            "id": "maven",
+            "title": "Maven",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Microsoft SQL Server 2019 migration is to be done during Summer 2022 (from SQL Server 2014)"
+                }
+            ],
+            "url": "#",
+            "key": "microsoft sql server 2019",
+            "id": "microsoft sql server 2019",
+            "title": "Microsoft SQL Server 2019",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Two services are using MongoDB locally in their own stack. Work ongoing to centralize MongoDB for global access within Co-Driver. Will then be the main NoSQL alternative."
+                }
+            ],
+            "url": "#",
+            "key": "mongodb",
+            "id": "mongodb",
+            "title": "MongoDB",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "MySQL is only used for Rancher 1.6. Not used in production code anymore (MS SQL Server 2019 is the main alternative)"
+                }
+            ],
+            "url": "#",
+            "key": "mysql",
+            "id": "mysql",
+            "title": "MySQL",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Nginx is used as reverse proxy for our Rancher servers."
+                }
+            ],
+            "url": "#",
+            "key": "nginx",
+            "id": "nginx",
+            "title": "Nginx",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Our translation tool."
+                }
+            ],
+            "url": "#",
+            "key": "phrase",
+            "id": "phrase",
+            "title": "Phrase",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "For server monitoring, Prometheus is constantly fed with metrics from most of our software components. Prometheus metrics are visualized in Grafana boards using 14 days of history."
+                }
+            ],
+            "url": "#",
+            "key": "prometheus / grafana",
+            "id": "prometheus / grafana",
+            "title": "Prometheus / Grafana",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Our RTD and AssetComServer (Co-Driver \"unit server\") use RabbitMQ. However, we have said that new components should use Kafka primarily and secondary ActiveMQ."
+                }
+            ],
+            "url": "#",
+            "key": "rabbitmq",
+            "id": "rabbitmq",
+            "title": "RabbitMQ",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "We have a \"team\" subscription in Sentry. So far we have rolled it out in 2-3 frontend applications. Trial in Spring Boot is ongoing."
+                }
+            ],
+            "url": "#",
+            "key": "sentry",
+            "id": "sentry",
+            "title": "Sentry",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Used for HOWTOs. However, most people don't like Sharepoint."
+                }
+            ],
+            "url": "#",
+            "key": "sharepoint wiki",
+            "id": "sharepoint wiki",
+            "title": "Sharepoint Wiki",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Subversion is our legacy CM system, which we will not get rid of for a long forseeable time."
+                }
+            ],
+            "url": "#",
+            "key": "subversion",
+            "id": "subversion",
+            "title": "Subversion",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "Zabbix is actively replaced with Prometheus. After move to Azure, Zabbix will no longer be used."
+                }
+            ],
+            "url": "#",
+            "key": "zabbix",
+            "id": "zabbix",
+            "title": "Zabbix",
+            "quadrant": "tools"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01T00:00:00.000Z",
+                    "description": "All environments (prod, QA, team, dev environments) are automatically set up using definitions. No (or minimal) manual work shall be needed to get a new environment up and running. All environments shall be configured in the same way - i.e. no specific adaptations of a QA environment."
+                }
+            ],
+            "url": "#",
+            "key": "infrastructure as code",
+            "id": "infrastructure as code",
+            "title": "Infrastructure as code",
+            "quadrant": "techniques"
+        }
+    ]
 }
