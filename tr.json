@@ -8,17 +8,17 @@
         {
             "id": "trial",
             "name": "TRIAL",
-            "color": "#93c77d"
+            "color": "#111111"
         },
         {
             "id": "assess",
             "name": "ASSESS",
-            "color": "#93c17d"
+            "color": "#333333"
         },
         {
             "id": "hold",
             "name": "HOLD",
-            "color": "#63c47d"
+            "color": "#666666"
         }
     ],
     "quadrants": [
